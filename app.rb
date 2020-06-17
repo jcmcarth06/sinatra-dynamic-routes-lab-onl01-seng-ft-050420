@@ -11,6 +11,6 @@ class App < Sinatra::Base
     (number * number).to_s
   end
 
-  
+
 
 end
