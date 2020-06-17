@@ -32,9 +32,9 @@ class App < Sinatra::Base
     if params[:operation] = 'subtract'
       (num1 - num2).to_s
     if params[:operation] = 'multiply'
-      (num1 * num2).to_s
+      (num1*num2).to_s
     if params[:operation] = 'divide'
-      (num1 / num2).to_s
+      (num1/num2).to_s
     end
   end
 
